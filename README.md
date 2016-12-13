@@ -1,2 +1,2 @@
-# sidemenudrawer
-Navigation DrawerLayout Activity with simplified methods.
+# SideMenuDrawer
+A fast small-code Android Activity with DrawerLayout implementation.
