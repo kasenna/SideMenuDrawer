@@ -1,5 +1,4 @@
 package karpen74us.sidemenudrawer;
-
 /*
 RippleButton.java
 Copyright (C) 2016  Max Karpenkov
