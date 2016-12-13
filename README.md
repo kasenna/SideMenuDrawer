@@ -1,2 +1,2 @@
 # sidemenudrawer
-Navigation DrawerLayout Activity with simplified methods
+Navigation DrawerLayout Activity with simplified methods.
