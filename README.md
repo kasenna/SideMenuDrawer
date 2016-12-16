@@ -5,16 +5,13 @@ Supported API: 14-24
 
 ##Set up<br>
 
-1.Create folder SideMenuDrawerModule inside your Android Studio project root folder, then put there all github files (better to exclude example SideMenuDrawerExample project folder).
-
-2.Add ':SideMenuDrawerModule' in settings.gradle file:
+Just add into your Module build.gradle file this:
 ```java
-include ':app', ':SideMenuDrawerModule'
+dependencies {
+    compile 'com.github.kasenna:SideMenuDrawerLibrary:1.0.2'
+}
 ```
-3.Add this line in build.gradle file:
-```java
-compile project(':SideMenuDrawerModule')
-```
+That's it!
 
 ##Usage
 
@@ -51,4 +48,4 @@ initSideMenu();
 ```
 
 ##How about example?
-See [this](https://github.com/kasenna/SideMenuDrawer/tree/master/SideMenuDrawerExample)!
+See [this](https://github.com/kasenna/SideMenuDrawer/tree/master/SideMenuDrawer-example)!
