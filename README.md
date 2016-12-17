@@ -1,17 +1,20 @@
 # SideMenuDrawer
 A fast small-code Android Activity with DrawerLayout implementation.
 
-Supported API: 14-24
+Supported API: 14+
 
 ##Set up<br>
 
-Just add into your Module build.gradle file this:
+Just add this to your build.gradle:
 ```java
+repositories {
+    mavenCentral()
+}
+
 dependencies {
-    compile 'com.github.kasenna:SideMenuDrawerLibrary:1.0.2'
+    compile 'com.github.kasenna:SideMenuDrawerLibrary:1.0.3'
 }
 ```
-That's it!
 
 ##Usage
 
