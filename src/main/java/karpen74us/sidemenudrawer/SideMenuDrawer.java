@@ -42,6 +42,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
+import karpen74us.sidemenudecor.RippleButton;
 
 
 public abstract class SideMenuDrawer extends AppCompatActivity {

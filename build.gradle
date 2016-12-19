@@ -25,6 +25,10 @@ buildscript {
     }
 }
 
+repositories {
+    mavenCentral()
+}
+
 dependencies {
-    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.github.kasenna:SideMenuDecorLibrary:1.0.0'
 }

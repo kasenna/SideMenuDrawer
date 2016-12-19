@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <karpen74us.sidemenudrawer.RippleButton
+    <karpen74us.sidemenudecor.RippleButton
         android:id="@+id/item_button"
         android:layout_width="match_parent"
         android:layout_height="50dp"

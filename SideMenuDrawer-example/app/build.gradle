@@ -23,5 +23,5 @@ repositories {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.github.kasenna:SideMenuDrawerLibrary:1.0.3'
+    compile 'com.github.kasenna:SideMenuDrawerLibrary:1.0.4'
 }

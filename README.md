@@ -1,5 +1,5 @@
 # SideMenuDrawer
-A fast small-code Android Activity with DrawerLayout implementation.
+A fast small-code Android Activity with DrawerLayout implementation (with using [SideMenuDecor](https://github.com/kasenna/SideMenuDecor) library).
 
 Supported API: 14+
 
@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.kasenna:SideMenuDrawerLibrary:1.0.3'
+    compile 'com.github.kasenna:SideMenuDrawerLibrary:1.0.4'
 }
 ```
 
