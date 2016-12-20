@@ -264,6 +264,27 @@ public abstract class SideMenuDrawer extends AppCompatActivity {
         setTitle(first_item.item_text.substring(3));
     }
 
+    public CharSequence getCurrentItemName(){
+        return mTitle;
+    }
+
+    public void setItemFragmentByItemName(final String item_name){
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                String actual_item_name = "   "+item_name;
+                for (int i=0;i<mitemList.size();++i){
+                    ItemObject cur_item = mitemList.get(i);
+                    if (cur_item.item_text.equals(actual_item_name)){
+                        getSupportFragmentManager().beginTransaction().replace(R.id.main_activity_fragment_place, cur_item.item_fragment).commitAllowingStateLoss();
+                        setTitle(cur_item.item_text.substring(3));
+                        i = mitemList.size();
+                    }
+                }
+            }
+        });
+    }
+
     @Override
     public void onBackPressed() {
         if (mTitle.equals(mitemList.get(0).item_text.substring(3))) {
